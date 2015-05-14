@@ -221,6 +221,7 @@
 		298A9FD9D27652A316A8FE8D /* FBSDKLoginCompletion.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B743D685438CAEDAA9F67D /* FBSDKLoginCompletion.h */; };
 		2A04CD22026C0E4B5409D30B /* UISwitch+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 33511670FD81BA3FF5389703 /* UISwitch+RACSignalSupport.m */; };
 		2A27BE3920AAFA3B0B10D316 /* RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C3277C5EF19BD3EEF3001 /* RACSubject.m */; };
+		2A2F6DAB1B04B14D00055015 /* FBSDKShareDialog+RACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F6DAA1B04B14D00055015 /* FBSDKShareDialog+RACExtensions.m */; };
 		2B4292A40B938A75DEC80791 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 435EA12E157203BD6692988E /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2B9FA45AB8B26FB9F646B132 /* FBSDKLikeActionControllerCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3105A1EC9EF9752DDB7813 /* FBSDKLikeActionControllerCache.m */; };
 		2C033052C1606AAB0C29AB6C /* RACSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 922C6A209993418CB222E519 /* RACSubscriber.h */; };
@@ -1418,6 +1419,8 @@
 		28D8AE5414D430378D8C1E59 /* NSObject+RACDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACDescription.h"; path = "ReactiveCocoa/NSObject+RACDescription.h"; sourceTree = "<group>"; };
 		297A8F7DBC926115CD7B25A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		29D4EE4EF49CF5890D46236C /* RACObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACObjCRuntime.h; path = ReactiveCocoa/RACObjCRuntime.h; sourceTree = "<group>"; };
+		2A2F6DA91B04B14D00055015 /* FBSDKShareDialog+RACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSDKShareDialog+RACExtensions.h"; sourceTree = "<group>"; };
+		2A2F6DAA1B04B14D00055015 /* FBSDKShareDialog+RACExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSDKShareDialog+RACExtensions.m"; sourceTree = "<group>"; };
 		2A6B5B3BA16266DB112D35ED /* FBSDKAppInviteContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppInviteContent.h; path = FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h; sourceTree = "<group>"; };
 		2A6F3B99BD6A373A2383355D /* RACReplaySubject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACReplaySubject.m; path = ReactiveCocoa/RACReplaySubject.m; sourceTree = "<group>"; };
 		2C341AACF64BC20D70FAC04B /* FBSDKAccessTokenCacheV4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAccessTokenCacheV4.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenCacheV4.h; sourceTree = "<group>"; };
@@ -2293,6 +2296,16 @@
 			path = "../Target Support Files/Pods-FBSDK-RACExtensions-FBSDKCoreKit";
 			sourceTree = "<group>";
 		};
+		2A603F461B04B05E00DF27D2 /* FBSDKShareKit-RACExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A2F6DA91B04B14D00055015 /* FBSDKShareDialog+RACExtensions.h */,
+				2A2F6DAA1B04B14D00055015 /* FBSDKShareDialog+RACExtensions.m */,
+			);
+			name = "FBSDKShareKit-RACExtensions";
+			path = "Pod/FBSDKShareKit-RACExtensions";
+			sourceTree = "<group>";
+		};
 		2A774FE26CE9858BD95B2F20 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -3114,6 +3127,7 @@
 			children = (
 				9AD6CFC2F48A30ACA3B9E89A /* FBSDKCoreKit-RACExtensions */,
 				4D3A98265078ACCBD8147DBC /* FBSDKLoginKit-RACExtensions */,
+				2A603F461B04B05E00DF27D2 /* FBSDKShareKit-RACExtensions */,
 				5087EF521FF12F67205CCBEF /* Support Files */,
 			);
 			name = "FBSDK-RACExtensions";
@@ -4664,6 +4678,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2F6DAB1B04B14D00055015 /* FBSDKShareDialog+RACExtensions.m in Sources */,
 				14185A5432C09A631DF098F9 /* Pods-FBSDK-RACExtensions-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

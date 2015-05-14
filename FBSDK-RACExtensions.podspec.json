@@ -31,7 +31,12 @@
          ]
     },
     
-    "default_subspec" : "All",
+    "default_subspecs" :
+    [
+        "FBSDKCoreKit-RACExtensions",
+        "FBSDKLoginKit-RACExtensions",
+        "FBSDKShareKit-RACExtensions"
+    ],
     
     "subspecs" :
     [
