@@ -30,3 +30,11 @@ DerivedData
 # `pod install` in .travis.yml
 #
 # Pods/
+Example/Pods/Headers
+Example/Pods/Specta
+Example/Pods/FBSDKShareKit
+Example/Pods/Expecta
+Example/Pods/Bolts
+Example/Pods/FBSDKCoreKit
+Example/Pods/FBSDKLoginKit
+Example/Pods/ReactiveCocoa
