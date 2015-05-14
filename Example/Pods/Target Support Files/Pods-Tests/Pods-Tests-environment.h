@@ -35,35 +35,35 @@
 // This library does not follow semantic-versioning,
 // so we were not able to define version macros.
 // Please contact the author.
-// Version: 0.0.1.0.
+// Version: 0.0.2.0.
 
 // FBSDK-RACExtensions/All
 #define COCOAPODS_POD_AVAILABLE_FBSDK_RACExtensions_All
 // This library does not follow semantic-versioning,
 // so we were not able to define version macros.
 // Please contact the author.
-// Version: 0.0.1.0.
+// Version: 0.0.2.0.
 
 // FBSDK-RACExtensions/FBSDKCoreKit-RACExtensions
 #define COCOAPODS_POD_AVAILABLE_FBSDK_RACExtensions_FBSDKCoreKit_RACExtensions
 // This library does not follow semantic-versioning,
 // so we were not able to define version macros.
 // Please contact the author.
-// Version: 0.0.1.0.
+// Version: 0.0.2.0.
 
 // FBSDK-RACExtensions/FBSDKLoginKit-RACExtensions
 #define COCOAPODS_POD_AVAILABLE_FBSDK_RACExtensions_FBSDKLoginKit_RACExtensions
 // This library does not follow semantic-versioning,
 // so we were not able to define version macros.
 // Please contact the author.
-// Version: 0.0.1.0.
+// Version: 0.0.2.0.
 
 // FBSDK-RACExtensions/FBSDKShareKit-RACExtensions
 #define COCOAPODS_POD_AVAILABLE_FBSDK_RACExtensions_FBSDKShareKit_RACExtensions
 // This library does not follow semantic-versioning,
 // so we were not able to define version macros.
 // Please contact the author.
-// Version: 0.0.1.0.
+// Version: 0.0.2.0.
 
 // FBSDKCoreKit
 #define COCOAPODS_POD_AVAILABLE_FBSDKCoreKit

@@ -15,7 +15,7 @@
     "source" :
     {
         "git" : "https://github.com/eagle-dan1349/FBSDK-RACExtensions.git",
-        "tag" : "0.0.1.0"
+        "tag" : "0.0.2.0"
     },
     "requires_arc": true,
     "platforms" :
@@ -46,6 +46,7 @@
         },
         {
             "name" : "FBSDKCoreKit-RACExtensions",
+            "public_header_files" : "Pod/FBSDKCoreKit-RACExtensions/*.h",
             "source_files" : "Pod/FBSDKCoreKit-RACExtensions/*.{h,m}",
             "dependencies" :
             {
@@ -57,6 +58,7 @@
         },
         {
             "name" : "FBSDKLoginKit-RACExtensions",
+            "public_header_files" : "Pod/FBSDKLoginKit-RACExtensions/*.h",
             "source_files" : "Pod/FBSDKLoginKit-RACExtensions/*.{h,m}",
             "dependencies" :
             {
@@ -68,6 +70,7 @@
         },
         {
             "name" : "FBSDKShareKit-RACExtensions",
+            "public_header_files" : "Pod/FBSDKShareKit-RACExtensions/*.h",
             "source_files" : "Pod/FBSDKShareKit-RACExtensions/*.{h,m}",
             "dependencies" :
             {

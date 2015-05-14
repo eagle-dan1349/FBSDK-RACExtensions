@@ -6,21 +6,21 @@ PODS:
     - Bolts/Tasks
   - Bolts/Tasks (1.1.5)
   - Expecta (1.0.0)
-  - FBSDK-RACExtensions (0.0.1.0):
-    - FBSDK-RACExtensions/All (= 0.0.1.0)
+  - FBSDK-RACExtensions (0.0.2.0):
+    - FBSDK-RACExtensions/All (= 0.0.2.0)
     - ReactiveCocoa (~> 2.5)
-  - FBSDK-RACExtensions/All (0.0.1.0):
+  - FBSDK-RACExtensions/All (0.0.2.0):
     - FBSDK-RACExtensions/FBSDKCoreKit-RACExtensions
     - FBSDK-RACExtensions/FBSDKLoginKit-RACExtensions
     - FBSDK-RACExtensions/FBSDKShareKit-RACExtensions
     - ReactiveCocoa (~> 2.5)
-  - FBSDK-RACExtensions/FBSDKCoreKit-RACExtensions (0.0.1.0):
+  - FBSDK-RACExtensions/FBSDKCoreKit-RACExtensions (0.0.2.0):
     - FBSDKCoreKit (~> 4.1.0)
     - ReactiveCocoa (~> 2.5)
-  - FBSDK-RACExtensions/FBSDKLoginKit-RACExtensions (0.0.1.0):
+  - FBSDK-RACExtensions/FBSDKLoginKit-RACExtensions (0.0.2.0):
     - FBSDKLoginKit (~> 4.1.0)
     - ReactiveCocoa (~> 2.5)
-  - FBSDK-RACExtensions/FBSDKShareKit-RACExtensions (0.0.1.0):
+  - FBSDK-RACExtensions/FBSDKShareKit-RACExtensions (0.0.2.0):
     - FBSDKShareKit (~> 4.1.0)
     - ReactiveCocoa (~> 2.5)
   - FBSDKCoreKit (4.1.0):
@@ -57,7 +57,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Bolts: aac24961496d504aa56fc267cde95162a71bac39
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
-  FBSDK-RACExtensions: 4f7135534af989282fc77dde0de1e2ec85ee2e11
+  FBSDK-RACExtensions: 37fbdd51e9a5635e77d22bcd78da622d8ad98fd2
   FBSDKCoreKit: 469ed167195f860dbd2b4c4bbaa33d2e90598db9
   FBSDKLoginKit: ff6224762732e3698f30942e4544321b8c7a23e6
   FBSDKShareKit: 8002faf0c564ff3625eadd16e506b0b0fbf3adef
