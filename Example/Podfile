@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FBSDK-RACExtensions', :exclusive => true do
+  pod "FBSDK-RACExtensions", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "FBSDK-RACExtensions", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
