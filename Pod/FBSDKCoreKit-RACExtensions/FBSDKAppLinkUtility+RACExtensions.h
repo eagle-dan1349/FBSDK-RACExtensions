@@ -6,8 +6,8 @@
 //
 //
 
-#import <ReactiveCocoa.h>
-#import <FBSDKAppLinkUtility.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <FBSDKCoreKit/FBSDKAppLinkUtility.h>
 
 @interface FBSDKAppLinkUtility (RACExtensions)
 

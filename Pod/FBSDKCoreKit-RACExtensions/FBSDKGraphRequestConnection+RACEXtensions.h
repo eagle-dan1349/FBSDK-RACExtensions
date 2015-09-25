@@ -6,8 +6,8 @@
 //
 //
 
-#import <ReactiveCocoa.h>
-#import <FBSDKGraphRequestConnection.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <FBSDKCoreKit/FBSDKGraphRequestConnection.h>
 
 @interface FBSDKGraphRequestConnection (RACExtensions)
 

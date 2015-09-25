@@ -6,8 +6,8 @@
 //
 //
 
-#import <ReactiveCocoa.h>
-#import "FBSDKLoginManager.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface FBSDKLoginManager (RACExtenstions)
 
@@ -16,14 +16,16 @@
  *  Creates signal that will initiate login sequence upon subscription
  *  @return A cold login signal
  */
-- (RACSignal*) rac_logInWithReadPermissions:(NSArray*) permissions;
+- (RACSignal*) rac_logInWithReadPermissions:(NSArray*) permissions
+                         fromViewController:(UIViewController*) viewController;
 
 /**
  *  A convince around -logInWithPublishPermissions:handler:
  *  Creates signal that will initiate login sequence upon subscription
  *  @return A cold login signal
  */
-- (RACSignal*) rac_logInWithPublishPermissions:(NSArray*) permissions;
+- (RACSignal*) rac_logInWithPublishPermissions:(NSArray*) permissions
+                            fromViewController:(UIViewController*) viewController;
 
 /**
  *  A convince around +renewSystemCredentials:

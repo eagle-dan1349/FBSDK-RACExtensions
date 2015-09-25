@@ -90,7 +90,6 @@
 		1E7AF15EC4DC78171C6E783B546F3764 /* FBSDKWebDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39595D3483DC26C7279CA0C719F24E /* FBSDKWebDialog.m */; };
 		1E95926DC11D5D183E90140F3EA76CF1 /* NSObject+RACDeallocating.m in Sources */ = {isa = PBXBuildFile; fileRef = C778B874168B77794F71F80BEE59A958 /* NSObject+RACDeallocating.m */; };
 		1EB767EEF9B1B54BB6293DE8F607BFB4 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CCBF2FA1C42E08EDB6C83169F5232B /* EXPMatchers+beIdenticalTo.h */; };
-		1FCF14A2B3BCDB47BAF7A5341EFDEDF3 /* FBSDKShareDialog+RACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E428558ED53C25BEF4C6DE2E852222B /* FBSDKShareDialog+RACExtensions.m */; };
 		2091698EE946D91731473351EB8597B3 /* FBSDKURLOpening.h in Headers */ = {isa = PBXBuildFile; fileRef = 5261F185D0E011CA16B378603BE6C31B /* FBSDKURLOpening.h */; };
 		20DF9D8CCFBD43B0DA3F7C228F6CA3A5 /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A1F0A72814352314ED3DDDD4198F4A /* EXPExpect.h */; };
 		2195ED0FF4088786BF438550C22F2539 /* FBSDKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 76ACC359F541EA636786DB34728D09F6 /* FBSDKCrypto.h */; };
@@ -377,7 +376,6 @@
 		A13921A5977B2125814238135103BAAD /* FBSDKLikeBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE7582198DC1F7D780E5031E881130 /* FBSDKLikeBoxView.m */; };
 		A1522C472D0EFDE89F65A1C298625B9B /* FBSDKBridgeAPIProtocolWebV2.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D40F36AB8FAB581DFFA0226550F08F /* FBSDKBridgeAPIProtocolWebV2.h */; };
 		A1FFDF8D3765EEB2B13684B383D05023 /* FBSDKSystemAccountStoreAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C07E96CFC78F85248D518FAB48F4AA2 /* FBSDKSystemAccountStoreAdapter.m */; };
-		A2AC7DB07E65B4B808FC9FF696E1399C /* FBSDKShareDialog+RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F4472B374989BC7D7EC7E16CF41E51 /* FBSDKShareDialog+RACExtensions.h */; };
 		A3488BA46DF230A770931F82982C38A4 /* RACStringSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C023CE9D7A6AA7FD16153A8919B60A /* RACStringSequence.m */; };
 		A3AC0D390D44751AFB4F8217D0AF8F82 /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4E0FA436FEFB9FABC53B8319B10CC /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A420191EB009965E7197850E117C1D58 /* FBSDKAccessTokenCacheV3.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA402DDFB5698FD734248D2A980A85F /* FBSDKAccessTokenCacheV3.h */; };
@@ -812,7 +810,6 @@
 		0C586A047F54E7F80549CEFFC14058A1 /* UIButton+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+RACCommandSupport.m"; path = "ReactiveCocoa/UIButton+RACCommandSupport.m"; sourceTree = "<group>"; };
 		0D5C59E27BB6775D94DF5EE0502DD4F2 /* FBSDKLikeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKLikeControl.h; path = FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h; sourceTree = "<group>"; };
 		0E30DA291BBBF81DABB76427DB96D3AB /* NSSet+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+RACSequenceAdditions.h"; path = "ReactiveCocoa/NSSet+RACSequenceAdditions.h"; sourceTree = "<group>"; };
-		0E428558ED53C25BEF4C6DE2E852222B /* FBSDKShareDialog+RACExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSDKShareDialog+RACExtensions.m"; sourceTree = "<group>"; };
 		0E711CB33F1AE4410FD6D990CBE07D6D /* FBSDKAppGroupJoinDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKAppGroupJoinDialog.m; path = FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.m; sourceTree = "<group>"; };
 		0F31440213BA8231F105D2C27D61AC9D /* FBSDKBridgeAPIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKBridgeAPIResponse.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIResponse.m; sourceTree = "<group>"; };
 		0FA6DB060CE5AF1C34F104E84D3C6804 /* RACmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACmetamacros.h; path = ReactiveCocoa/extobjc/RACmetamacros.h; sourceTree = "<group>"; };
@@ -1334,7 +1331,6 @@
 		D48C6D6818DE35645CA9CA37E3114229 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		D49DA84A9331A1C35807A2B0800FE131 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
 		D4A1F0A72814352314ED3DDDD4198F4A /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
-		D4F4472B374989BC7D7EC7E16CF41E51 /* FBSDKShareDialog+RACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSDKShareDialog+RACExtensions.h"; sourceTree = "<group>"; };
 		D5DB6DC72277B447723F60F7815270A3 /* RACImmediateScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACImmediateScheduler.m; path = ReactiveCocoa/RACImmediateScheduler.m; sourceTree = "<group>"; };
 		D77BF83631215E98DF6E9CDD42E505BD /* FBSDKShareKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKShareKit.xcconfig; sourceTree = "<group>"; };
 		D8C54527DDA7E136B49174440C712EB4 /* UISwitch+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+RACSignalSupport.m"; path = "ReactiveCocoa/UISwitch+RACSignalSupport.m"; sourceTree = "<group>"; };
@@ -1758,7 +1754,6 @@
 			children = (
 				A23DEBE8BF047B48374725A419EEC03C /* FBSDKCoreKit-RACExtensions */,
 				EEF3E04483169DF8DE4B448AD4444BD7 /* FBSDKLoginKit-RACExtensions */,
-				B62ADA6E0128BB990164A37F6C942ECF /* FBSDKShareKit-RACExtensions */,
 				E6D2D7315136EB31A1B340FBFB77456A /* Support Files */,
 			);
 			name = "FBSDK-RACExtensions";
@@ -2212,22 +2207,6 @@
 			path = "../Target Support Files/FBSDKShareKit";
 			sourceTree = "<group>";
 		};
-		A30D819F778FC3D2A21A78CBF01EBA2C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FFB66D4FECA282ABEB65737038A194E2 /* FBSDKShareKit-RACExtensions */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		B62ADA6E0128BB990164A37F6C942ECF /* FBSDKShareKit-RACExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				A30D819F778FC3D2A21A78CBF01EBA2C /* Pod */,
-			);
-			name = "FBSDKShareKit-RACExtensions";
-			sourceTree = "<group>";
-		};
 		C011B8ACAA323FB51FFE08396CEBAE67 /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -2525,15 +2504,6 @@
 				DCB372EF3809334F673F245D49CF0CAF /* BFWebViewAppLinkResolver.m */,
 			);
 			name = AppLinks;
-			sourceTree = "<group>";
-		};
-		FFB66D4FECA282ABEB65737038A194E2 /* FBSDKShareKit-RACExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				D4F4472B374989BC7D7EC7E16CF41E51 /* FBSDKShareDialog+RACExtensions.h */,
-				0E428558ED53C25BEF4C6DE2E852222B /* FBSDKShareDialog+RACExtensions.m */,
-			);
-			path = "FBSDKShareKit-RACExtensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2846,7 +2816,6 @@
 				AA7A10DCF31F9BF41EB627451298E3FC /* FBSDKGraphRequest+RACExtensions.h in Headers */,
 				13110FF82705927F49FB4206B1C25AFC /* FBSDKGraphRequestConnection+RACEXtensions.h in Headers */,
 				21C082F1C89203339FA2FC9948A12494 /* FBSDKLoginManager+RACExtenstions.h in Headers */,
-				A2AC7DB07E65B4B808FC9FF696E1399C /* FBSDKShareDialog+RACExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3428,7 +3397,6 @@
 				7DBC154AEBF5DA28E424BD3C9DCDDA7F /* FBSDKGraphRequest+RACExtensions.m in Sources */,
 				9D10FF2D39F44B43BF13B1485B0899A9 /* FBSDKGraphRequestConnection+RACExtensions.m in Sources */,
 				4D07D173BB2907CBE01F9C2BF618AF07 /* FBSDKLoginManager+RACExtenstions.m in Sources */,
-				1FCF14A2B3BCDB47BAF7A5341EFDEDF3 /* FBSDKShareDialog+RACExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3692,6 +3660,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;

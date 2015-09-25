@@ -11,11 +11,13 @@
 @implementation FBSDKLoginManager (RACExtenstions)
 
 - (RACSignal*) rac_logInWithReadPermissions:(NSArray*) permissions
+                         fromViewController:(UIViewController*) viewController
 {
     RACSignal* logInSignal =
     [RACSignal createSignal:^RACDisposable* (id<RACSubscriber> subscriber)
      {
          [self logInWithReadPermissions:permissions
+                     fromViewController:viewController
                                 handler:^(FBSDKLoginManagerLoginResult* result, NSError* error)
           {
               if (!error)
@@ -36,11 +38,13 @@
 }
 
 - (RACSignal*) rac_logInWithPublishPermissions:(NSArray*) permissions
+                            fromViewController:(UIViewController*) viewController
 {
     RACSignal* logInSignal =
     [RACSignal createSignal:^RACDisposable* (id<RACSubscriber> subscriber)
      {
          [self logInWithPublishPermissions:permissions
+                        fromViewController:viewController
                                    handler:^(FBSDKLoginManagerLoginResult* result, NSError* error)
           {
               if (!error)

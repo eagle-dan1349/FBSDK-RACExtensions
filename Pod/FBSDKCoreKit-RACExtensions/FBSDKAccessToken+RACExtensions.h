@@ -6,8 +6,8 @@
 //
 //
 
-#import <ReactiveCocoa.h>
-#import <FBSDKAccessToken.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <FBSDKCoreKit/FBSDKAccessToken.h>
 
 @interface FBSDKAccessToken (RACExtensions)
 
