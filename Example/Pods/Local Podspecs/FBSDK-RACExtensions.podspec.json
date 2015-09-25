@@ -23,29 +23,19 @@
       "~> 2.5"
     ]
   },
-  "default_subspec": "All",
+  "default_subspecs": [
+    "FBSDKCoreKit-RACExtensions",
+    "FBSDKLoginKit-RACExtensions",
+    "FBSDKShareKit-RACExtensions"
+  ],
   "subspecs": [
-    {
-      "name": "All",
-      "dependencies": {
-        "FBSDK-RACExtensions/FBSDKCoreKit-RACExtensions": [
-
-        ],
-        "FBSDK-RACExtensions/FBSDKLoginKit-RACExtensions": [
-
-        ],
-        "FBSDK-RACExtensions/FBSDKShareKit-RACExtensions": [
-
-        ]
-      }
-    },
     {
       "name": "FBSDKCoreKit-RACExtensions",
       "public_header_files": "Pod/FBSDKCoreKit-RACExtensions/*.h",
       "source_files": "Pod/FBSDKCoreKit-RACExtensions/*.{h,m}",
       "dependencies": {
         "FBSDKCoreKit": [
-          "~> 4.1.0"
+          "~> 4.6.0"
         ]
       }
     },
@@ -54,8 +44,11 @@
       "public_header_files": "Pod/FBSDKLoginKit-RACExtensions/*.h",
       "source_files": "Pod/FBSDKLoginKit-RACExtensions/*.{h,m}",
       "dependencies": {
+        "FBSDK-RACExtensions/FBSDKCoreKit-RACExtensions": [
+
+        ],
         "FBSDKLoginKit": [
-          "~> 4.1.0"
+          "~> 4.6.0"
         ]
       }
     },
@@ -64,8 +57,11 @@
       "public_header_files": "Pod/FBSDKShareKit-RACExtensions/*.h",
       "source_files": "Pod/FBSDKShareKit-RACExtensions/*.{h,m}",
       "dependencies": {
+        "FBSDK-RACExtensions/FBSDKCoreKit-RACExtensions": [
+
+        ],
         "FBSDKShareKit": [
-          "~> 4.1.0"
+          "~> 4.6.0"
         ]
       }
     }
