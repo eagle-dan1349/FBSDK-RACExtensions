@@ -17,10 +17,15 @@
         "git" : "https://github.com/eagle-dan1349/FBSDK-RACExtensions.git",
         "tag" : "0.0.2.1"
     },
-    "requires_arc": true,
+    "requires_arc" : true,
     "platforms" :
     {
         "ios" : "7.0"
+    },
+    
+    "xcconfig" :
+    {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" : "YES"
     },
     
     "dependencies" :
